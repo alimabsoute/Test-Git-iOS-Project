@@ -14,6 +14,7 @@
 		D7B8363119F9E8EF00D56EBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B8363019F9E8EF00D56EBA /* Images.xcassets */; };
 		D7B8363419F9E8EF00D56EBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B8363219F9E8EF00D56EBA /* LaunchScreen.xib */; };
 		D7B8364019F9E8EF00D56EBA /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B8363F19F9E8EF00D56EBA /* Git_TestTests.m */; };
+		D7B8364B19F9EE4000D56EBA /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B8364A19F9EE4000D56EBA /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D7B8363919F9E8EF00D56EBA /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B8363E19F9E8EF00D56EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7B8363F19F9E8EF00D56EBA /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		D7B8364919F9EE4000D56EBA /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		D7B8364A19F9EE4000D56EBA /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		D7B8361719F9E8EF00D56EBA = {
 			isa = PBXGroup;
 			children = (
+				D7B8364919F9EE4000D56EBA /* CCTest.h */,
+				D7B8364A19F9EE4000D56EBA /* CCTest.m */,
 				D7B8362219F9E8EF00D56EBA /* Git Test */,
 				D7B8363C19F9E8EF00D56EBA /* Git TestTests */,
 				D7B8362119F9E8EF00D56EBA /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B8362C19F9E8EF00D56EBA /* ViewController.m in Sources */,
+				D7B8364B19F9EE4000D56EBA /* CCTest.m in Sources */,
 				D7B8362919F9E8EF00D56EBA /* AppDelegate.m in Sources */,
 				D7B8362619F9E8EF00D56EBA /* main.m in Sources */,
 			);
